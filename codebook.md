@@ -12,7 +12,7 @@ Here are the raw data for the project:
 	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
 
-Data for the project : “https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip”
+Data for the project : ï¿½https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zipï¿½
 
 The raw dataset includes the following files:
 =========================================
@@ -36,23 +36,23 @@ The raw dataset includes the following files:
  
 Variables and Data transformation
 
-1	trainXdataset Data frame, X_train.txt data 
-2	trainYdataset Data frame, y_train.txt data 
-3	trainSdataset Data frame, subject_train.txt data 
-4	testXdataset Data frame, X_test.txt data 
-5	testYdataset Data frame, y_test.txt data 
-6	testSdataset Data frame, subject_test.txt data 
-7	ctrainSYdataset Data frame, column merge trainSdataset & trainYdataset 
-8	ctrainSYXdataset Data frame, column merge ctrainSYdataset &  trainXdataset
-9	ctestSYdataset Data frame, column merge testSdataset & testYdatase 
-10	ctestSYXdataset Data frame,column merge ctestSYdataset & ctestSYdataset
-11	mergeSYXdata Data frame, row merged ( append) ctrainSYXdataset,ctestSYXdataset
-12	features data frame, features.txt
-13	activity_labels data frame , activity_labels.txt
-14	actmergedata data frame, merge mergeSYXdata & mergeSYXdata join on activity Id
-15	mergesubsetcolnames data frame,  filter include colnames in ('subject','activity_name') and contain mean() and Std() in actmergedata 
-16	Clean column names remove () and convert them to lower case
-17	Create a tidy data set by summarizing the fields by subject and activity name
+1 trainXdataset Data frame, X_train.txt data 
+2 trainYdataset Data frame, y_train.txt data 
+3 trainSdataset Data frame, subject_train.txt data 
+4 testXdataset Data frame, X_test.txt data 
+5 testYdataset Data frame, y_test.txt data 
+6 testSdataset Data frame, subject_test.txt data 
+7 ctrainSYdataset Data frame, column merge trainSdataset & trainYdataset 
+8 ctrainSYXdataset Data frame, column merge ctrainSYdataset &  trainXdataset
+9 ctestSYdataset Data frame, column merge testSdataset & testYdatase 
+10 ctestSYXdataset Data frame,column merge ctestSYdataset & ctestSYdataset
+11 mergeSYXdata Data frame, row merged ( append) ctrainSYXdataset,ctestSYXdataset
+12 features data frame, features.txt
+13 activity_labels data frame , activity_labels.txt
+14 actmergedata data frame, merge mergeSYXdata & mergeSYXdata join on activity Id
+15 mergesubsetcolnames data frame,  filter include colnames in ('subject','activity_name') and contain mean() and Std() in actmergedata 
+16 Clean column names remove () and convert them to lower case
+17 Create a tidy data set by summarizing the fields by subject and activity name
 
 Tidy Field Defination 
 Field names, description of the field and data type
